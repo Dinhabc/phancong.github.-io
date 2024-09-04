@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>phan cong</title>
+</head>
+<body>
+  <div class="okay">
+
+    <h1>Phân công trực nhật</h1>
+
+    <label for="boys">Danh sách bạn nam (mỗi bạn trên một dòng):</label>
+    <textarea id="boys"></textarea>
+
+    <label for="girls">Danh sách bạn nữ (mỗi bạn trên một dòng):</label>
+    <textarea id="girls"></textarea>
+
+        <div class="file1">
+            <label class="labelfile" for="fileInput">Chọn tệp</label>
+            <input type="file" id="fileInput" accept=".txt">
+            
+        </div>
+        <p class="file-name" id="file-name">Chưa có tệp</p>
+    <p>Vui lòng chọn file có định dạng<br>
+    	Nam:<br>
+    	 Kiên<br>
+    	 Tài<br>
+    	 Nữ:<br>
+     	Hoa<br>
+    	 Mai
+    </p>
+    <div class="box1">
+        <button onclick="generateRandomPairs()">Xếp học sinh</button>
+        <button onclick="hientobang()">In tài liệu</button>
+    </div>
+        <div class="box2">
+            <input id="xoaybang" type="checkbox" onchange="myFunction()">
+            <label for="xoaybang">xoay bảng</label>
+            </div>
+    <p id="den">Các học sinh trực nhiều là: </p>
+
+    <div class="result" id="result">
+        <table id="mytable">
+            <thead>
+                <tr>
+                    <th>Thứ</th>
+                    <th>Quét Sân</th>
+                    <th>Quét lớp</th>
+                    <th>Lau Bảng và đổ rác</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <th>2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                   
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                 
+                <tr>
+                    <th>7</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  
+            </tbody>
+        </table>
+    </div>
+    </div>
+        <script src="scripts/app1.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+  body {
+            font-family: Arial, sans-serif;
+            padding: 15px ;
+            background-color: #120A8F;
+          
+            h1{
+                color:aqua;
+                
+                font-size:35px;
+                text-align:center
+            }
+        }
+        .okay{
+           align-items: center;
+            display:flex;
+            flex-direction:column;
+            background-color: #F0F8FF;
+            padding:25px
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+            margin-top: 5px;
+        }
+        .file1{
+            margin-top: 20px; 
+            cursor: pointer;
+            border: 1px solid;
+            height:50px;
+            width:100px;
+            position:relative;
+            
+        }
+        .labelfile{
+            width:100%;
+            height:100%;
+            text-align:center;
+            background-color:#007bff;
+            display:block;
+            margin:0px;
+            cursor:pointer;
+            line-height:50px;
+            color:white
+        }
+        #fileInput{
+            width:100%;
+           height:100%;
+            opacity:0;
+            position:absolute;
+            cursor:pointer;
+            top:0;
+            left:0;
+        }
+       .file-name{
+           color:orange
+       }
+ .result{
+     margin:30px;
+     
+ }
+  @media only screen and (max-device-width: 768px) {
+        .result {
+            display: flex;
+            margin-top: 30px;
+            overflow-x:auto;
+            width:100%;
+            align-items: center;
+        }
+  }
+
+ @media only screen and (orientation: landscape) {
+     .result{
+         justify-content: center;
+     }
+ }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            /*margin-top: 20px;*/
+        }
+
+        table, th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 15px;
+            width: 130px;
+            height: 50px;
+        }
+    p{
+        
+    }
+    .box1{
+        display:flex;
+        
+    }
+    .box1>button{
+        margin:15px;
+        padding: 7px 12px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color:#7FFFD4;
+        width:100px;
+        color:red;
+    }
+    .box2{
+        display:flex;
+    }
+    .box2>label{
+        margin:0px
+    }
