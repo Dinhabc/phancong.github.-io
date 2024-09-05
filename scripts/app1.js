@@ -456,8 +456,8 @@ function hientobang(){
             canvas.height = height;
             
             // Vẽ nền trắng cho canvas
-           // ctx.fillStyle = "white";
-          //  ctx.fillRect(0, 0, width, height);
+           ctx.fillStyle = "white";
+          ctx.fillRect(0, 0, width, height);
 
             // Vẽ các ô trong bảng
             const rows = table.rows;
